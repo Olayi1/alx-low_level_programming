@@ -1,10 +1,15 @@
-#include "main"
+#include "main.h"
 /**
-*main - check code.
-*Return: (0)
+*print_alphabet:a-z
+*Return: (void)
 */
-int main(void)
+void print_alphabet(void)
 {
-print_alphabet("abcdefghijklmnopqrstuvwxyz\n");
-    return (0);
+int a;
+
+for (a = 97; a <= 122; a++)
+{
+_putchar(a);
+}
+_putchar('\n');
 }
