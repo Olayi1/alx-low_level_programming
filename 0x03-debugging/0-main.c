@@ -9,17 +9,8 @@ int main(void)
 {
 int i;
 
-i = 98;
+i = 0;
 positive_or_negative(i);
-if (i > 0)
-printf("i is positive\n");
-else if (i < 0)
-{
-printf("i is negative\n");
-}
-else
-{
-printf("i is zero\n");
-}
+
 return (0);
 }
