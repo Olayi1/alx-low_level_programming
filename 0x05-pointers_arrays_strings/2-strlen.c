@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*_strlen: function for one arguement
+*_strlen - function for one arguement
 *@s: string
 *Return: 0;
 */
