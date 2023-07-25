@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*void reset_to_98(int *n); - change pointer
+*reset_to_98 - change pointer
 *@n: is a pointer
 *reset_to_98: store pointer
 *Return: 0;
